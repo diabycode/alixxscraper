@@ -171,7 +171,7 @@ def _get_store_products_url(driver: WebDriver, store_url: str, limit: int | None
             break
     
     if len(product_list) == 0:
-        print("0 produit trouvé!")
+        print("0 produit trouvé!!")
         sys.exit(1)
     return product_list
 
@@ -234,7 +234,7 @@ def get_single_product(driver, product_url: str, output: str="single_product.csv
 
 
 def get_stores_from_file(file_name: str):
-    file = Path(__file__).parent / file_name
+    file = Path(file_name).resolve()
     if not file.exists():
         print(f"Fichier '{file_name}' introuvable")
         sys.exit(1)

@@ -20,9 +20,9 @@ NB : Enrégistrez le fichier store_list.txt dans 'src/'
 !! Packagé et testé sur Windows 10 
 
 ```bash	
-dist/alixscraper/alixscraper.exe -s https://aliexpress.com/store/XXXXXXXXXX/ 
-dist/alixscraper/alixscraper.exe -p https://aliexpress.com/item/XXXXXXXXXX/ 
-dist/alixscraper/alixscraper.exe -f store_list.txt
+dist/alixscraper.exe -s https://aliexpress.com/store/XXXXXXXXXX/ 
+dist/alixscraper.exe -p https://aliexpress.com/item/XXXXXXXXXX/ 
+dist/alixscraper.exe -f store_list.txt
 ```
 
 NB : Enrégistrez le fichier store_list.txt dans 'dist/alixscraper/_internal/'
